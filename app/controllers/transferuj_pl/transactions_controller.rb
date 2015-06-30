@@ -1,6 +1,7 @@
 class TransferujPL::TrasactionsController < ActionController::Base
-  def notification
+  skip_before_action :verify_authenticity_token
 
+  def notification
     render text: "TRUE"
   end
 end
