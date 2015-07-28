@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.description = "This wrapper allows you to quickly set up an integration with Transferuj.PL payment gateway."
   s.license     = "MIT"
 
-  s.add_dependency "rails", "~> 4.2"
+  s.add_dependency "rails", "~> 4.1"
   s.add_development_dependency "rspec-rails"
   s.add_development_dependency "rake"
   s.add_development_dependency "factory_girl_rails", "~> 4.0"
